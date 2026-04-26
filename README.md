@@ -19,17 +19,17 @@
 ---
 
 <p align="center">
-  <a href="https://reliefnet-ai.netlify.app">
+  <a href="https://agent-69ee5006ca3b7f532b770689--reliefnet01.netlify.app">
     <img src="https://img.shields.io/badge/🚀_LIVE_DEMO-Try_It_Now-22c55e?style=for-the-badge&logoColor=white" alt="Live Demo" />
   </a>
   &nbsp;&nbsp;
-  <a href="https://app.netlify.com/start/deploy?repository=https://github.com/your-username/reliefnet-ai-plus">
+  <a href="https://app.netlify.com/start/deploy?repository=https://github.com/UTKARSHH20/reliefnet-ai-plus">
     <img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />
   </a>
 </p>
 
 <p align="center">
-  👉 <strong><a href="https://reliefnet-ai.netlify.app">https://reliefnet-ai.netlify.app</a></strong> 👈
+  👉 <strong><a href="https://agent-69ee5006ca3b7f532b770689--reliefnet01.netlify.app">https://agent-69ee5006ca3b7f532b770689--reliefnet01.netlify.app</a></strong> 👈
 </p>
 
 ---
@@ -40,7 +40,7 @@
 
 ### Quick Start (Online Demo)
 
-1. **Open** → [https://reliefnet-ai.netlify.app](https://reliefnet-ai.netlify.app)
+1. **Open** → [https://agent-69ee5006ca3b7f532b770689--reliefnet01.netlify.app](https://agent-69ee5006ca3b7f532b770689--reliefnet01.netlify.app)
 2. **Click** → "Launch Dashboard" on the landing page
 3. **Explore** → Navigate the Command Center, run AI Allocation, view the map
 4. **Unlock AI** → Paste your free [Gemini API key](https://aistudio.google.com/) into the AI Priority or Prediction panels
@@ -243,7 +243,7 @@ ReliefNet AI+ addresses these challenges with:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/reliefnet-ai-plus.git
+git clone https://github.com/UTKARSHH20/reliefnet-ai-plus.git
 cd reliefnet-ai-plus
 
 # Install dependencies
@@ -454,7 +454,7 @@ Deploy your own instance of ReliefNet AI+ to Netlify in under 5 minutes:
 
 ### Option 1: One-Click Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/your-username/reliefnet-ai-plus)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/UTKARSHH20/reliefnet-ai-plus)
 
 ### Option 2: Manual Deployment
 
@@ -498,7 +498,7 @@ netlify deploy --prod --dir=dist
 - [ ] Test Gemini API key entry in-app
 - [ ] Share the link with judges! 🎉
 
-> ⚠️ **Important:** After deploying, update the placeholder URL `https://reliefnet-ai.netlify.app` in this README with your actual Netlify deployment URL.
+> ⚠️ **Important:** After deploying, update the placeholder URL `https://agent-69ee5006ca3b7f532b770689--reliefnet01.netlify.app` in this README with your actual Netlify deployment URL.
 
 ---
 

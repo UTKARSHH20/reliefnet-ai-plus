@@ -550,7 +550,7 @@ This is a hackathon prototype. Contributions are welcome for:
   </tr>
 </table>
 
-> 🏫 **Team Name** — GDG Hackathon 2026
+> 🏫 **Team Name** — ROOKIES
 >
 > ⚠️ *Replace the placeholder names, GitHub usernames, and roles above with your actual team details.*
 
@@ -558,7 +558,7 @@ This is a hackathon prototype. Contributions are welcome for:
 
 ## 📄 License
 
-This project is built for the **GDG Hackathon** and is available under the [MIT License](LICENSE).
+This project is built for the **** and is available under the [MIT License](LICENSE).
 
 ---
 

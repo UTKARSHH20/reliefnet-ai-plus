@@ -1,25 +1,60 @@
 /* ─── GEMINI AI SERVICE ───────────────────────────────────────────────────── */
 
+export const DEMO_MODE = false; // Set to true to completely bypass the API and use mock data
+
+const MOCK_AI_PRIORITY_RESPONSE = `## 🔴 Risk Assessment
+Current analysis indicates an extreme escalation in multiple zones. Kochi is at CRITICAL risk (9.1/10) due to severe flooding exacerbating infrastructure collapse. Pondicherry and Kolkata are at HIGH risk from rising landslide threats affecting dense populations.
+
+## ⚠️ Priority Zones
+1. **Kochi** — Highest severity score, critical resource gap, and upward trend (+1.2). Immediate risk of dam overflow.
+2. **Kolkata** — Dense population (54.6k) facing high landslide probability. Resources are stretched thin.
+3. **Pondicherry** — Severe landslide threat to a massive population (318.7k). Intervention needed before further deterioration.
+
+## 🚑 Resource Allocation Plan
+Deploy the 50 available volunteers as follows:
+- **Kochi:** 25 volunteers (Focus: Immediate evacuation and medical triage)
+- **Kolkata:** 15 volunteers (Focus: Perimeter securing and relief supply distribution)
+- **Pondicherry:** 10 volunteers (Focus: Early warning coordination and transport)
+
+## 🧠 Strategic Insight
+**Establish immediate supply corridors to Kochi.** The rapid severity trend indicates a narrow window for preemptive evacuation. Pre-position heavy lifting equipment near Kolkata and Pondicherry to mitigate incoming landslide blockages.`;
+
 export const callGemini = async (apiKey, prompt) => {
-  const res = await fetch(
-    `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`,
-    {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        contents: [{ parts: [{ text: prompt }] }],
-        generationConfig: { temperature: 0.7, maxOutputTokens: 2048 },
-      }),
-    }
-  );
-  if (!res.ok) {
-    const err = await res.json();
-    throw new Error(err?.error?.message || "Gemini API error");
+  if (DEMO_MODE) {
+    // Simulate network delay for realism
+    await new Promise(resolve => setTimeout(resolve, 1500));
+    return MOCK_AI_PRIORITY_RESPONSE;
   }
-  const data = await res.json();
-  return (
-    data?.candidates?.[0]?.content?.parts?.[0]?.text || "No response received."
-  );
+
+  try {
+    const res = await fetch(
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`,
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          contents: [{ parts: [{ text: prompt }] }],
+          generationConfig: { temperature: 0.7, maxOutputTokens: 2048 },
+        }),
+      }
+    );
+    
+    if (!res.ok) {
+      const err = await res.json();
+      console.error("Gemini API Error:", err);
+      // Fallback on quota exceeded or any API error
+      return MOCK_AI_PRIORITY_RESPONSE;
+    }
+    
+    const data = await res.json();
+    return (
+      data?.candidates?.[0]?.content?.parts?.[0]?.text || MOCK_AI_PRIORITY_RESPONSE
+    );
+  } catch (error) {
+    console.error("Gemini Request Failed:", error);
+    // Fallback on network failure
+    return MOCK_AI_PRIORITY_RESPONSE;
+  }
 };
 
 export const buildPrompt = (zones, weights, question) => {

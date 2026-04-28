@@ -520,29 +520,29 @@ This is a hackathon prototype. Contributions are welcome for:
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/username1">
-        <img src="https://github.com/username1.png" width="80" style="border-radius:50%" alt="Member 1"/><br/>
+      <a href="https://github.com/UTKARSHH20">
+        <img src="https://github.com/UTKARSHH20.png" width="80" style="border-radius:50%" alt="Member 1"/><br/>
         <sub><b>Member Name 1</b></sub>
       </a><br/>
       <sub>Frontend & UI/UX</sub>
     </td>
     <td align="center">
-      <a href="https://github.com/username2">
-        <img src="https://github.com/username2.png" width="80" style="border-radius:50%" alt="Member 2"/><br/>
+      <a href="https://github.com/utkarshxdsc">
+        <img src="https://github.com/utkarshxdsc.png" width="80" style="border-radius:50%" alt="Member 2"/><br/>
         <sub><b>Member Name 2</b></sub>
       </a><br/>
       <sub>AI/ML & Gemini Integration</sub>
     </td>
     <td align="center">
-      <a href="https://github.com/username3">
-        <img src="https://github.com/username3.png" width="80" style="border-radius:50%" alt="Member 3"/><br/>
+      <a href="https://github.com/Rishal2324">
+        <img src="https://github.com/Rishal2324.png" width="80" style="border-radius:50%" alt="Member 3"/><br/>
         <sub><b>Member Name 3</b></sub>
       </a><br/>
       <sub>Backend & Data Pipeline</sub>
     </td>
     <td align="center">
-      <a href="https://github.com/username4">
-        <img src="https://github.com/username4.png" width="80" style="border-radius:50%" alt="Member 4"/><br/>
+      <a href="https://github.com/Samar-Saifi">
+        <img src="https://github.com/Samar-Saifi.png" width="80" style="border-radius:50%" alt="Member 4"/><br/>
         <sub><b>Member Name 4</b></sub>
       </a><br/>
       <sub>Maps & Visualization</sub>

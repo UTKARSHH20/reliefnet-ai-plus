@@ -54,7 +54,7 @@ const AlertTicker = () => {
       </div>
 
       <div style={{ flex: 1, overflow: "hidden", position: "relative", height: 20 }}>
-        <div className={`ticker-content ${crisisMode ? "ticker-fast" : ""}`} style={{ display: "flex", gap: 32, position: "absolute", whiteSpace: "nowrap" }}>
+        <div className={`ticker-inner ${crisisMode ? "ticker-fast" : ""}`} style={{ display: "flex", gap: 32, position: "absolute", whiteSpace: "nowrap" }}>
           {[...alerts, ...alerts, ...alerts].map((a, i) => (
             <div key={i} className="flex items-center gap-2" style={{ display: "inline-flex" }}>
               {a.type === "critical" && <span style={{ width: 6, height: 6, borderRadius: "50%", background: "#ef4444" }} className="pulse" />}

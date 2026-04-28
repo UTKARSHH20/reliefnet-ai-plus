@@ -551,8 +551,6 @@ This is a hackathon prototype. Contributions are welcome for:
 </table>
 
 > 🏫 **Team Name** — ROOKIES
->
-> ⚠️ *Replace the placeholder names, GitHub usernames, and roles above with your actual team details.*
 
 ---
 

@@ -19,7 +19,7 @@
 ---
 
 <p align="center">
-  <a href="https://agent-69ee5006ca3b7f532b770689--reliefnet01.netlify.app">
+  <a href="https://agent-69f059283170e28d62c70ce5--tranaai.netlify.app/">
     <img src="https://img.shields.io/badge/🚀_LIVE_DEMO-Try_It_Now-22c55e?style=for-the-badge&logoColor=white" alt="Live Demo" />
   </a>
   &nbsp;&nbsp;
@@ -29,7 +29,7 @@
 </p>
 
 <p align="center">
-  👉 <strong><a href="https://agent-69ee5006ca3b7f532b770689--reliefnet01.netlify.app">https://agent-69ee5006ca3b7f532b770689--reliefnet01.netlify.app</a></strong> 👈
+  👉 <strong><a href="https://agent-69f059283170e28d62c70ce5--tranaai.netlify.app/">https://agent-69f059283170e28d62c70ce5--tranaai.netlify.app/</a></strong> 👈
 </p>
 
 ---
@@ -40,7 +40,7 @@
 
 ### Quick Start (Online Demo)
 
-1. **Open** → [https://agent-69ee5006ca3b7f532b770689--reliefnet01.netlify.app](https://agent-69ee5006ca3b7f532b770689--reliefnet01.netlify.app)
+1. **Open** → [https://agent-69f059283170e28d62c70ce5--tranaai.netlify.app/](https://agent-69f059283170e28d62c70ce5--tranaai.netlify.app/)
 2. **Click** → "Launch Dashboard" on the landing page
 3. **Explore** → Navigate the Command Center, run AI Allocation, view the map
 4. **Unlock AI** → Paste your free [Gemini API key](https://aistudio.google.com/) into the AI Priority or Prediction panels
@@ -498,7 +498,7 @@ netlify deploy --prod --dir=dist
 - [ ] Test Gemini API key entry in-app
 - [ ] Share the link with judges! 🎉
 
-> ⚠️ **Important:** After deploying, update the placeholder URL `https://agent-69ee5006ca3b7f532b770689--reliefnet01.netlify.app` in this README with your actual Netlify deployment URL.
+> ⚠️ **Important:** After deploying, update the placeholder URL `https://agent-69f059283170e28d62c70ce5--tranaai.netlify.app/` in this README with your actual Netlify deployment URL.
 
 ---
 

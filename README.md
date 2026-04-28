@@ -529,21 +529,21 @@ This is a hackathon prototype. Contributions are welcome for:
     <td align="center">
       <a href="https://github.com/utkarshxdsc">
         <img src="https://github.com/utkarshxdsc.png" width="80" style="border-radius:50%" alt="Member 2"/><br/>
-        <sub><b>Member Name 2</b></sub>
+        <sub><b>utkarshxdsc</b></sub>
       </a><br/>
       <sub>AI/ML & Gemini Integration</sub>
     </td>
     <td align="center">
       <a href="https://github.com/Rishal2324">
         <img src="https://github.com/Rishal2324.png" width="80" style="border-radius:50%" alt="Member 3"/><br/>
-        <sub><b>Member Name 3</b></sub>
+        <sub><b>Rishal2324</b></sub>
       </a><br/>
       <sub>Backend & Data Pipeline</sub>
     </td>
     <td align="center">
       <a href="https://github.com/Samar-Saifi">
         <img src="https://github.com/Samar-Saifi.png" width="80" style="border-radius:50%" alt="Member 4"/><br/>
-        <sub><b>Member Name 4</b></sub>
+        <sub><b>Samar-Saifi</b></sub>
       </a><br/>
       <sub>Maps & Visualization</sub>
     </td>

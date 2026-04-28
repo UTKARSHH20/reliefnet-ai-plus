@@ -522,7 +522,7 @@ This is a hackathon prototype. Contributions are welcome for:
     <td align="center">
       <a href="https://github.com/UTKARSHH20">
         <img src="https://github.com/UTKARSHH20.png" width="80" style="border-radius:50%" alt="Member 1"/><br/>
-        <sub><b>Member Name 1</b></sub>
+        <sub><b>UTKARSHH20</b></sub>
       </a><br/>
       <sub>Frontend & UI/UX</sub>
     </td>
